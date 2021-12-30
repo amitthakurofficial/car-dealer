@@ -1,0 +1,43 @@
+@import '~antd/dist/antd.css';
+
+@import './helper.scss';
+
+
+.text-center {
+    text-align: center;
+}
+
+.align-right {
+  float: right;
+}
+
+
+.app-form-inputs {
+  .ant-input-affix-wrapper {
+    height: 60px;
+    border-radius: 10px;
+    padding: 0 15px;
+    input {
+      padding-left: 15px;
+    }
+  }
+}
+
+.ant-input-affix-wrapper > input.ant-input:focus {
+  box-shadow: 0 0 0px 1000px #fff inset !important;
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color:rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 0px 1000px #fff inset !important;
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}

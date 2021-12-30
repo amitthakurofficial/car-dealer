@@ -1,0 +1,10 @@
+@for $i from 0 through 60 {
+    .ml#{$i} {
+        margin-left: $i + px;
+    }
+    
+    .mb#{$i} {
+        margin-bottom: $i + px;
+    }
+}
+
